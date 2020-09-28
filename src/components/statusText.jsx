@@ -3,8 +3,8 @@ import { Segment, Loader, Message } from 'semantic-ui-react'
 
 import { PENDING, SUCCESS, FAILURE, OUTDATED } from '../constants/status'
 
-const StatusText = ({status, text, error}) => (
-    (status === SUCCESS || status === OUTDATED) ? <Segment>{text}</Segment> :
+const StatusText = ({status, lines, error}) => (
+    (status === SUCCESS || status === OUTDATED) ? <Segment>{lines.map(line => (<p>{line}</p>))}</Segment> :
     (status === PENDING) ? <Loader active>Generando</Loader> :
     (status === FAILURE) ? (
         <Message negative>
