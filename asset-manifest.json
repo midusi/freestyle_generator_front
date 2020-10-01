@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/freestyle_generator_front/static/css/main.1e142157.chunk.css",
-    "main.js": "/freestyle_generator_front/static/js/main.17a5ccea.chunk.js",
-    "main.js.map": "/freestyle_generator_front/static/js/main.17a5ccea.chunk.js.map",
+    "main.css": "/freestyle_generator_front/static/css/main.ea8dbe09.chunk.css",
+    "main.js": "/freestyle_generator_front/static/js/main.7830962b.chunk.js",
+    "main.js.map": "/freestyle_generator_front/static/js/main.7830962b.chunk.js.map",
     "runtime-main.js": "/freestyle_generator_front/static/js/runtime-main.6cde9810.js",
     "runtime-main.js.map": "/freestyle_generator_front/static/js/runtime-main.6cde9810.js.map",
     "static/css/2.b40172c7.chunk.css": "/freestyle_generator_front/static/css/2.b40172c7.chunk.css",
-    "static/js/2.9ec9f3e5.chunk.js": "/freestyle_generator_front/static/js/2.9ec9f3e5.chunk.js",
-    "static/js/2.9ec9f3e5.chunk.js.map": "/freestyle_generator_front/static/js/2.9ec9f3e5.chunk.js.map",
+    "static/js/2.5a4c6788.chunk.js": "/freestyle_generator_front/static/js/2.5a4c6788.chunk.js",
+    "static/js/2.5a4c6788.chunk.js.map": "/freestyle_generator_front/static/js/2.5a4c6788.chunk.js.map",
     "index.html": "/freestyle_generator_front/index.html",
-    "precache-manifest.23a9f96af22c6af801fbed7555e068e1.js": "/freestyle_generator_front/precache-manifest.23a9f96af22c6af801fbed7555e068e1.js",
+    "precache-manifest.0b397dfe08e7b6ee3d9e2ec04e9beab9.js": "/freestyle_generator_front/precache-manifest.0b397dfe08e7b6ee3d9e2ec04e9beab9.js",
     "service-worker.js": "/freestyle_generator_front/service-worker.js",
     "static/css/2.b40172c7.chunk.css.map": "/freestyle_generator_front/static/css/2.b40172c7.chunk.css.map",
-    "static/css/main.1e142157.chunk.css.map": "/freestyle_generator_front/static/css/main.1e142157.chunk.css.map",
-    "static/js/2.9ec9f3e5.chunk.js.LICENSE.txt": "/freestyle_generator_front/static/js/2.9ec9f3e5.chunk.js.LICENSE.txt",
+    "static/css/main.ea8dbe09.chunk.css.map": "/freestyle_generator_front/static/css/main.ea8dbe09.chunk.css.map",
+    "static/js/2.5a4c6788.chunk.js.LICENSE.txt": "/freestyle_generator_front/static/js/2.5a4c6788.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/freestyle_generator_front/static/media/outline-icons.ef60a4f6.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.6cde9810.js",
     "static/css/2.b40172c7.chunk.css",
-    "static/js/2.9ec9f3e5.chunk.js",
-    "static/css/main.1e142157.chunk.css",
-    "static/js/main.17a5ccea.chunk.js"
+    "static/js/2.5a4c6788.chunk.js",
+    "static/css/main.ea8dbe09.chunk.css",
+    "static/js/main.7830962b.chunk.js"
   ]
 }
