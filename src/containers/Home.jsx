@@ -1,25 +1,23 @@
-import React, { useState, useEffect } from 'react'
-import { Button, Container, Header } from 'semantic-ui-react'
+import React, { useState } from 'react'
+import { Button, Container, Header, Icon } from 'semantic-ui-react'
 
 import { UNSET, PENDING, SUCCESS, FAILURE } from '../constants/status'
 import StatusText from '../components/statusText'
 import { getRhyme } from '../backend/generator'
 
+const play = (rhymes) => {
+  let msg = new SpeechSynthesisUtterance()
+  msg.text = rhymes.join('. ')
+  msg.lang = 'es'
+  msg.rate = 1.1
+  window.speechSynthesis.speak(msg)
+}
+
 function Home() {
-    
   const [status, setStatus] = useState(UNSET)
   const [rhymes, setRhymes] = useState([])
   const [idx, setIdx] = useState(0)
   const [error, setError] = useState(UNSET)
-
-  useEffect(() => {
-    rhymes.forEach((line) => {
-      let msg = new SpeechSynthesisUtterance()
-      msg.text = line
-      msg.lang = 'es'
-      window.speechSynthesis.speak(msg)
-    })
-  }, [rhymes])
 
   return (
     <Container>
@@ -43,6 +41,14 @@ function Home() {
         Generar
       </Button>
       <StatusText status={status} lines={rhymes} error={error} />
+      {
+        status === SUCCESS && 'speechSynthesis' in window ? (
+          <Button icon onClick={() => play(rhymes)}>
+            <Icon name='play circle outline' />
+          </Button>
+        ) : null
+      }
+      
     </Container>
   )
 }

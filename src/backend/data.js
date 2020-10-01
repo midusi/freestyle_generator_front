@@ -1,11 +1,5 @@
 export const verses = [
   [
-    "no tene' aguante para aguantar bajar",
-    "todo lo que tiro con grada",
-    "porque si no me conocé' debe ser que estas cegado tarzan",
-    "joven despué' lo dejo punto' y clara",
-  ],
-  [
     "no tengo loro flows te lo canto exacto impacto redacto",
     "duda nunca queda el pibe lo enrola en la seda imposible que pierda en el relato",
     "quieren hablar de rimar",
@@ -36,8 +30,14 @@ export const verses = [
     "la verdad que tengo la 23 y estoy siguendo el lucifer",
   ],
   [
+    "no tene' aguante para aguantar bajar",
+    "todo lo que tiro con grada",
+    "porque si no me conocés debe ser que estas cegado tarzan",
+    "joven despué' lo dejo punto' y clara",
+  ],
+  [
     "lo hago lo hago bien por esto siempre lo mato",
-    "saben tengo lo que quiero a mí me compran a mí no me gallo",
+    "saben tengo lo que quiero a mí me compran a mí no me callo",
     "tonto si fuera que no te las preparas hmm aunque vos lo' querés asumo jarcor",
     "lo clavo lo hacen bien este haters se quedan to' pa' rabos",
   ],
