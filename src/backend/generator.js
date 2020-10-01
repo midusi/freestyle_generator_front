@@ -1,8 +1,8 @@
 import { verses } from './data'
 
-export const getRhyme = () => new Promise((resolve, reject) => {
+export const getRhyme = idx => new Promise((resolve, reject) => {
   setTimeout(
-    () => resolve(verses[Math.floor(Math.random() * verses.length)]),
+    () => resolve(verses[idx]),
     250
   )
 })

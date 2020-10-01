@@ -1,5 +1,41 @@
 export const verses = [
   [
+    "no tene' aguante para aguantar bajar",
+    "todo lo que tiro con grada",
+    "porque si no me conocé' debe ser que estas cegado tarzan",
+    "joven despué' lo dejo punto' y clara",
+  ],
+  [
+    "no tengo loro flows te lo canto exacto impacto redacto",
+    "duda nunca queda el pibe lo enrola en la seda imposible que pierda en el relato",
+    "quieren hablar de rimar",
+    "mi música es plena no pueden hablar",
+  ],
+  [
+    "lo hago saben que tengo el flow que tengo todos loro flows te lo canto exacto impacto redacto",
+    "duda nunca queda el pibe lo enrola en la seda imposible que pierda en la encanto",
+    "tené cuidado en mi teclado",
+    "que lo' punto' y empato",
+  ],
+  [
+    "quieren pararme y saben que lo mato",
+    "quien soy el ok oh en esta batalla la que es mi gatos",
+    "lo' fin clavo trajo",
+    "no lo sé quien lo parar-me a hardcor",
+  ],
+  [
+    "porque puto mis cervicales loro cloroformo lo' deformo a todo' loro tonos son mis amor",
+    "más bien sé que lo que voy a claro",
+    "tengo lo que tengo el flow y lo hago a pablo",
+    "porque yo soy el más bonito del ando",
+  ],
+  [
+    "no tene' aguante para aguantar entendes",
+    "todo lo que tiro con fluidez",
+    "ves que tengo la pelota en la mano fluidez",
+    "la verdad que tengo la 23 y estoy siguendo el lucifer",
+  ],
+  [
     "lo hago lo hago bien por esto siempre lo mato",
     "saben tengo lo que quiero a mí me compran a mí no me gallo",
     "tonto si fuera que no te las preparas hmm aunque vos lo' querés asumo jarcor",
@@ -423,12 +459,6 @@ export const verses = [
     "yo tengo pararme y no lo sé quien lo parar-me a wanna",
   ],
   [
-    "no tene' aguante para aguantar bajar",
-    "todo lo que tiro con grada",
-    "porque si no me conocé' debe ser que estas cegado tarzan",
-    "joven despué' lo' punto' y clara",
-  ],
-  [
     "lo parto sabe que tengo mucha práctica mi música es tata",
     "quiere ganarme en el parque de bancas",
     "tu flow que no pueden parar lo que a este wacho saca la pista mal él tiene una IDEAS",
@@ -531,12 +561,6 @@ export const verses = [
     "lo sé que lo sé pero lo que no sé quien lo saben que lo hago por la forma que te puedo wo",
   ],
   [
-    "no tengo loro flows te lo canto exacto impacto redacto",
-    "duda nunca queda el pibe lo enrola en la seda imposible que pierda en la relato",
-    "quieren hablar de rimar no pueden hablar",
-    "mi música es plena",
-  ],
-  [
     "guerra que me me consideró un plena",
     "yo que me transformo por eso no tengo que tengo flow pa' que lo suelto mientra' hago lo mio como un avión que nunca gera",
     "lo único bien que tengo es flow que tengo mi flow y eso lo mato al mea",
@@ -552,18 +576,6 @@ export const verses = [
     "ok oh drim",
     "como el dto lo hace bien siempre lo' lo ci",
     "y el dice que me voy a enseñar por eso a mí no me di",
-  ],
-  [
-    "quieren pararme y saben que lo mato",
-    "quien soy el ok oh en esta batalla la que es mi gatos",
-    "lo' fin clavo trajo",
-    "no lo sé quien lo parar-me a hardcor",
-  ],
-  [
-    "porque puto mis cervicales loro cloroformo lo' deformo a todo' loro tonos son mis amor",
-    "más bien sé que lo que voy a claro",
-    "tengo lo que tengo el flow y lo hago en pablo",
-    "porque yo soy el más bonito del ando",
   ],
   [
     "imperante la banana tango",
@@ -609,12 +621,6 @@ export const verses = [
     "lo' ritmo que siempre te parto",
     "esto  se come cada vez que lo hago",
     "hermano y me cago",
-  ],
-  [
-    "lo hago saben que tengo el flow que tengo todos loro flows te lo canto exacto impacto redacto",
-    "duda nunca queda el pibe lo enrola en la seda imposible que pierda en la encanto",
-    "tené cuidado en mi teclado",
-    "que lo' punto' y empato",
   ],
   [
     "palo me callo escucha como asumo to’",
@@ -708,12 +714,6 @@ export const verses = [
     "viajan con mi pole me corean loro violes",
     "ando como como un siome",
     "se se quedan pinzones",
-  ],
-  [
-    "no tene' aguante para aguantar entend’es",
-    "todo lo que tiro con fluidez",
-    "ves que tengo la pelota en la mano fluidez",
-    "la verdad que tengo la 23 y estoy siguendo el lucifer",
   ],
   [
     "si vos solamente querés tuviste",

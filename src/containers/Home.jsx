@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Button, Container, Header } from 'semantic-ui-react'
 
 import { UNSET, PENDING, SUCCESS, FAILURE } from '../constants/status'
@@ -9,7 +9,17 @@ function Home() {
     
   const [status, setStatus] = useState(UNSET)
   const [rhymes, setRhymes] = useState([])
+  const [idx, setIdx] = useState(0)
   const [error, setError] = useState(UNSET)
+
+  useEffect(() => {
+    rhymes.forEach((line) => {
+      let msg = new SpeechSynthesisUtterance()
+      msg.text = line
+      msg.lang = 'es'
+      window.speechSynthesis.speak(msg)
+    })
+  }, [rhymes])
 
   return (
     <Container>
@@ -18,10 +28,11 @@ function Home() {
         onClick={
           () => {
             setStatus(PENDING)
-            getRhyme().then(
+            getRhyme(idx).then(
               res => {
                 setStatus(SUCCESS)
                 setRhymes(res)
+                setIdx(idx+1)
               }
             ).catch(
               error => {
