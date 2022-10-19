@@ -16,7 +16,6 @@ const play = (rhymes) => {
 function Home() {
   const [status, setStatus] = useState(UNSET)
   const [rhymes, setRhymes] = useState([])
-  const [idx, setIdx] = useState(0)
   const [error, setError] = useState(UNSET)
 
   return (
@@ -26,11 +25,10 @@ function Home() {
         onClick={
           () => {
             setStatus(PENDING)
-            getRhyme(idx).then(
+            getRhyme(Math.floor(Math.random() * 100)).then(
               res => {
                 setStatus(SUCCESS)
                 setRhymes(res)
-                setIdx(idx+1)
               }
             ).catch(
               error => {
